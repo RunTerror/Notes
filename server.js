@@ -15,7 +15,7 @@ mongoose.connect("mongodb+srv://abhishekbansal:MacK1234@cluster0.etbgyj9.mongodb
         });
         
         const notesRouter=require('./routes/Note');
-        app.use("/notes", notesRouter);
+        app.use("/notes", notesRouter );
 
 
     }
